@@ -1,0 +1,27 @@
+package com.dxc.accpack;
+
+public class Account {
+	private final int accNo;
+	private String accType;
+	private int balance;
+	private static int count;
+	
+	static {
+		count=0;
+	}
+	public static int getCount()
+	{
+		return(++count);
+	}
+	public Account(String accType, int balance) {
+		super();
+		this.accNo=getCount();
+		this.accType = accType;
+		this.balance = balance;
+	}
+	@Override
+	public String toString() {
+		return "Account [accNo=" + accNo + ", accType=" + accType + ", balance=" + balance + "]";
+	}
+	
+}

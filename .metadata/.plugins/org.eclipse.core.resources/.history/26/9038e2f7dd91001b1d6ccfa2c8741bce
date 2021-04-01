@@ -1,0 +1,10 @@
+package com.dxc.libpack;
+import com.dxc.bpack.Book;
+public class MainLib {
+
+	public static void main(String[] args) {
+		Book book1 = new Book(100,"Java",200);
+		System.out.println(book1);
+	}
+
+}

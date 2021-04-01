@@ -1,0 +1,30 @@
+package com.dxc.pack1;
+
+public class Main {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = {4,3,6,2,1};
+		int sum=0;
+		/*
+		 * for(int i=0;i<arr.length;i++) { sum+=Math.pow(arr[i], i); }
+		 * System.out.println(sum); String[] sarr=
+		 * {"Harleen","Hema","Lochana","Meghana"};
+		 * 
+		 * //Enhanced for loop for(String str:sarr) { System.out.println(str); }
+		 */
+		
+		int f=sumArray(arr);
+		System.out.println(f);
+	}
+	public static int sumArray(int[] arr)
+	{
+		int x=0;
+		for(int y:arr)
+		{
+			x+=y;
+		}
+		return x;
+	}
+}

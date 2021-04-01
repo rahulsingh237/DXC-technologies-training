@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.dxc.cpack.Consumer"/>
+    <fullyQualifiedTypeName name="com.dxc.utility.sumation"/>
+    <fullyQualifiedTypeName name="com.dxc.apack.average"/>
+    <fullyQualifiedTypeName name="com.dxc.taxpack.Tax"/>
+    <fullyQualifiedTypeName name="com.dxc.cpack.class1"/>
+    <fullyQualifiedTypeName name="com.dxc.cpack.class2"/>
+    <fullyQualifiedTypeName name="com.dxc.prodpack.Product"/>
+    <fullyQualifiedTypeName name="com.dxc.ipack.ProductAccessInterface"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.ProfileCompiledMethodsPhase"/>
+    <fullyQualifiedTypeName name="com.dxc.cpack.ProductAccessImpl"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+</qualifiedTypeNameHistroy>

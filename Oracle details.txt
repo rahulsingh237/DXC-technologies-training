@@ -1,0 +1,3 @@
+EM Express URL: https://localhost:5500/em
+Pluggable database: localhost:1521/XEPDB1
+Multitenant container database: localhost:1521

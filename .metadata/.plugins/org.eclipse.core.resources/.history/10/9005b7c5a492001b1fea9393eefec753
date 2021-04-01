@@ -1,0 +1,12 @@
+package com.dxc.emppack;
+
+public class Programmer extends Employee{
+	private int noofproj;
+	private String skillset;
+	public Programmer(int empId, String empName, int salary, int noofproj, String skillset) {
+		super(empId, empName, salary);
+		this.noofproj = noofproj;
+		this.skillset = skillset;
+	}
+	
+}

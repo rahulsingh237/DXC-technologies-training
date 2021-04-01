@@ -1,0 +1,17 @@
+package com.dxc.mainpack;
+import com.dxc.emppack.*;
+
+public class Main {
+	public static void main(String[] args)
+	{
+		Employee emp=new Employee(100,"Veena",40000);
+		System.out.println(emp.getDetails());
+		
+		Manager manager = new Manager(200,"Rahul",60000,"IT",5);
+		System.out.println(manager.getDetails());
+		
+		Employee e = new Manager(201,"Saiteja",60000,"r&d",5);
+		System.out.println(e.getDetails());
+				
+	}
+}

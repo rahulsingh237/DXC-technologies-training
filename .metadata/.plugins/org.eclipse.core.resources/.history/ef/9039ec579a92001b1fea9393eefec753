@@ -1,0 +1,7 @@
+package com.dxc.stu;
+
+public class Student {
+	private int regno, name;
+	private int[] score=new int[3];
+	
+}

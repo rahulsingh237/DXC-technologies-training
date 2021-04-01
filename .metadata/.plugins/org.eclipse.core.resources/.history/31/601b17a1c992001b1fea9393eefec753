@@ -1,0 +1,5 @@
+package com.dxc.ipack;
+
+public interface ProductAccessInterface {
+
+}

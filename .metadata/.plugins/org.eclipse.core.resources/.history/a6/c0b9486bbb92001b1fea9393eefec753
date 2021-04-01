@@ -1,0 +1,10 @@
+package com.dxc.mpack;
+import com.dxc.cpack.Car;
+public class MainLongDrive {
+	public static void main(String[] args) {
+		Car c1 = new Car(1073,"q3",40,120,"7 seater");
+		c1.start();
+		c1.increaseSpeed(50);
+		c1.stop();
+	}
+}

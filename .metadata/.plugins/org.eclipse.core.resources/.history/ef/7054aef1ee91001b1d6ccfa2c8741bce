@@ -1,0 +1,13 @@
+package com.dxc.spack;
+import com.dxc.ppack.*;
+
+public class Stadium {
+
+	public static void main(String[] args) {
+		Player p1 = new Player("Rahul");
+		Player p2 = new Player("Aditi");
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.dxc.stu;
+
+public class Student {
+	private int name;
+	private static int regno;
+	private int[] score=new int[3];
+	static {
+		regno=0;
+	}
+	public Student(int name, int[] score) {
+		super();
+		this.name = name;
+		this.score = score;
+		++regno;
+	}
+	
+	public String grade(int[] scores)
+	{
+		
+	}
+}
