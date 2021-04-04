@@ -11,8 +11,8 @@ public class Main {
 		System.out.println("Skillset of java developer: "+j1.getSkillset());
 		System.out.println("Skillset of java architect: "+j2.getSkillset());
 		
-		System.out.println("Java Programmer: "+j);
-		System.out.println("Java Developer"+j1);
-		System.out.println("Java Architect"+j2);
+		System.out.println(j);
+		System.out.println(j1);
+		System.out.println(j2);
 	}
 }
