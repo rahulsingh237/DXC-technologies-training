@@ -20,9 +20,11 @@ public class ReadInput {
 			str1 = br.readLine();
 			str2 = br.readLine();
 			res = Integer.parseInt(str1)/Integer.parseInt(str2);
-		} catch (IOException e) {
+		} catch (IOException |NumberFormatException|ArithmeticException|ArrayIndexOutOfBoundsException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Exception occured:   "+e.getMessage());
+			
+			//e.printStackTrace();
 		}
 		finally {
 			System.out.println(res);
