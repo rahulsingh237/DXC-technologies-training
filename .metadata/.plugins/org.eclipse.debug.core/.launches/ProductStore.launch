@@ -12,6 +12,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.dxc.pack1.Main"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="ExceptionHandlingDemo1"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="10"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="10 5"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ExceptionHandlingDemo1"/>
 </launchConfiguration>

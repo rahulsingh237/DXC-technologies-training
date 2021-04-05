@@ -12,4 +12,10 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.ProfileCompiledMethodsPhase"/>
     <fullyQualifiedTypeName name="com.dxc.cpack.ProductAccessImpl"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.dxc.ppack.JavaProgrammer"/>
+    <fullyQualifiedTypeName name="com.dxc.ppack.JavaDeveloper"/>
+    <fullyQualifiedTypeName name="com.dxc.ppack.JavaArchitect"/>
+    <fullyQualifiedTypeName name="com.dxc.ab.Airs"/>
+    <fullyQualifiedTypeName name="com.dxc.ani.Animal"/>
+    <fullyQualifiedTypeName name="com.dxc.abs.Bird"/>
 </qualifiedTypeNameHistroy>

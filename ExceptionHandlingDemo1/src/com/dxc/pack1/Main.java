@@ -22,13 +22,19 @@ public class Main {
 		}
 		catch(ArithmeticException e1)
 		{
-			System.out.println("Exception for zero division");
+			System.out.println("Exception for zero division"+e1.getMessage());
+			e1.printStackTrace();
 		}
 		catch(ArrayIndexOutOfBoundsException e2)
 		{
 			System.out.println("Exception due to array index out of bound");
+			e2.printStackTrace();
 		}
-		System.out.println(res);
+		finally // this block will work even if exception is thrown or not
+		{
+			System.out.println("Finally block is running rn: "+res);
+		}
+		System.out.println("Bye Bye!!!");
 	}
 
 }
