@@ -37,8 +37,31 @@ public class ReadInput {
 			}
 			
 		}
-		
-		
 	}
+		
+		public static void readInput2()
+		{
+			try (InputStreamReader ir = new InputStreamReader(System.in);
+				 BufferedReader br = new BufferedReader(ir); 	
+					)
+			{
+				int res = Integer.parseInt(br.readLine())/Integer.parseInt(br.readLine());
+				System.out.println(res);
+			}catch(NumberFormatException | IOException |ArithmeticException|ArrayIndexOutOfBoundsException e) {
+				// TODO Auto-generated catch block
+				System.out.println("Exception occured:   "+e.getMessage());
+				
+				//e.printStackTrace();
+			} 
+		
+		}
+		public void readInput3() throws NumberFormatException, IOException
+		{
+			InputStreamReader ir = new InputStreamReader(System.in);
+			BufferedReader br = new BufferedReader(ir);
+			
+			int res = Integer.parseInt(br.readLine())/Integer.parseInt(br.readLine());
+			System.out.println(res);
+		}
 
 }
