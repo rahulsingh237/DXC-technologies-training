@@ -11,11 +11,26 @@
     <fullyQualifiedTypeName name="com.dxc.ipack.ProductAccessInterface"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.ProfileCompiledMethodsPhase"/>
     <fullyQualifiedTypeName name="com.dxc.cpack.ProductAccessImpl"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="com.dxc.ppack.JavaProgrammer"/>
     <fullyQualifiedTypeName name="com.dxc.ppack.JavaDeveloper"/>
     <fullyQualifiedTypeName name="com.dxc.ppack.JavaArchitect"/>
     <fullyQualifiedTypeName name="com.dxc.ab.Airs"/>
     <fullyQualifiedTypeName name="com.dxc.ani.Animal"/>
     <fullyQualifiedTypeName name="com.dxc.abs.Bird"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.dxc.inputpack.ReadInput"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="com.dxc.exceptionpack.InsufficientLeaveException"/>
+    <fullyQualifiedTypeName name="com.dxc.mainpack.Main"/>
+    <fullyQualifiedTypeName name="com.dxc.emppack.Employee"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.tools.SysPropsDumper"/>
+    <fullyQualifiedTypeName name="com.dxc.exceptionpack.InvalidAgeException"/>
+    <fullyQualifiedTypeName name="com.dxc.personpack.Person"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>
