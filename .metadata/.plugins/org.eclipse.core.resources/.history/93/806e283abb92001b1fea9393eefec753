@@ -1,7 +1,0 @@
-package com.dxc.mpack;
-
-public class MainLongDrive {
-	public static void main(String[] args) {
-		Car c1 = new Car(1073,"q3",40,120,"7 seater");
-	}
-}
