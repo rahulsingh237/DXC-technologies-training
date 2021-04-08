@@ -23,7 +23,6 @@ INDEX VERSION 1.131+D:\DXC2021JAVAWORKSPACE\.metadata\.plugins\org.eclipse.jdt.c
 3531030001.index
 2072482133.index
 601070180.index
-2063964953.index
 3016568952.index
 428780289.index
 1675682028.index
