@@ -14,7 +14,7 @@ public class Student implements Serializable {
 		this.m2 = m2;
 	}
 	
-	public void setTotal(int total) {
+	public void setTotal() {
 		this.total = m1+m2;
 	}
 
