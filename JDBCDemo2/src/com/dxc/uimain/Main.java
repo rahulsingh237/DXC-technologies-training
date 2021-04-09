@@ -1,5 +1,6 @@
 package com.dxc.uimain;
-
+ 
+import java.util.ArrayList;
 import java.util.Scanner;
  
 import com.dxc.data.BOOKDAO;
@@ -29,14 +30,17 @@ public class Main {
             {
             case 1:
             {
-                System.out.println("Enter the product id");
-                int pId = sc.nextInt();
-                System.out.println("Enter the product name");
-                String pName = sc.next();
-                System.out.println("Enter product price");
-                int pPrice = sc.nextInt();
+                System.out.println("Enter the book id");
+                int bookId = sc.nextInt();
+                System.out.println("Enter the book name");
+                sc.nextLine();
+                String bookName = sc.nextLine();//check this once
+                System.out.println("Enter book price");
+                int bookPrice = sc.nextInt();
 
-                ;
+                System.out.println(BOOKDAO.insertBook(bookId, bookName, bookPrice));
+
+
 
                 break;
             }
@@ -51,29 +55,43 @@ public class Main {
             }
             case 3:
             {
-                System.out.println("Enter the product name to be searched");
-                String pName = sc.next();
+                System.out.println("Enter the book name to be searched");
+                String bookName = sc.next();
+                Book book = BOOKDAO.getABook(bookName);
+                System.out.println(book);
+
 
                 break;
             }
             case 4:
             {
-                System.out.println("Enter the product id");
-                int pId = sc.nextInt();
-                System.out.println("Enter product price to be updated");
-                int pPrice = sc.nextInt();
-
-
-
+            	System.out.println("Enter the book id");
+                int bId = sc.nextInt();
+                System.out.println("Enter book name to be updated");
+                int price = sc.nextInt();
+                System.out.println(BOOKDAO.updatePrice(bId, price));
                 break;
             }
 
             case 5:
             {
+            	System.out.println("Enter the book id");
+                int bId = sc.nextInt();
+                System.out.println("Enter book name to be updated");
+                String bookName = sc.next();
+                
+                System.out.println(BOOKDAO.updateName(bId, bookName));
                 break;
+               
             }
             case 6:
             {
+                 ArrayList<Book> blist = BOOKDAO.getAllBooks();
+                 for (Book book: blist)
+                 {
+                     System.out.println(book);
+                 }
+
 
                 break;
             }
